@@ -1,0 +1,400 @@
+body {
+    background-image: linear-gradient(to bottom, #000000, #b1b1b1);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    
+}
+.titlel{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  margin-top: 10px;
+}
+
+header {
+  
+  background-color:#000000ad;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.famm:hover{
+
+
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top:  100px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #340404;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgb(255, 255, 255); 
+}
+.faam:hover{
+
+
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top:  100px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #340404;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgb(255, 255, 255); 
+}
+
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    color: aliceblue;
+    }
+    .family-text {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        width: 250px; 
+        max-width: calc(100% - 40px);
+        padding: 10px; 
+        background-color: rgba(5, 4, 4, 0.485);
+        border-radius: 5px;
+    
+    }
+    
+
+.fami {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .family-parent {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .family-parent img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0 50px;
+    margin-top: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .family-parent img:hover {
+    content: url('mother.jpg');
+    transition: transform 0.3s ease, box-shadow 0.3s ease 
+  }
+  .family-parent:hover img {
+    
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+  }
+  
+
+  .family-parent:hover:after {
+    content: "MOTHER";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 65px;
+    left: 105%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .family-parent:hover:after {
+    opacity: 1; 
+  }
+
+
+
+  /*eldest*/
+  .fam {
+    display: flex;
+    justify-content: center;
+}
+    .family-one {
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+      
+      .family-one img {
+        width: 150px;
+        height: 150px; 
+        border-radius: 50%;
+        border: 5px solid rgb(255, 255, 255);
+        margin: 0 50px;
+        margin-top: 67px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .family-one img:hover {
+        content: url('eldest.jpg');
+        transition: transform 0.3s ease, box-shadow 0.3s ease 
+      }
+      .family-one:hover img {
+        transform: scale(1.2);
+        box-shadow: 0 0 20px rgb(255, 255, 255); 
+      }
+      
+    
+      .family-one:hover:after {
+        content: "ELDEST CHILD";
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        top: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255, 255, 255, 0.833);
+        box-shadow: 0 0 20px rgb(255, 255, 255); 
+        color: rgb(0, 0, 0);
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      
+      .family-one:hover:after {
+        opacity: 1; 
+      }
+ 
+   /*middle*/
+   .family-two {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .family-two img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0 50px;
+    margin-top: 67px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .family-two img:hover {
+    content: url('middle.jpg');
+    transition: transform 0.3s ease, box-shadow 0.3s ease 
+  }
+  .family-two:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+  }
+  
+
+  .family-two:hover:after {
+    content: "MIDDLE CHILD";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.833);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .family-two:hover:after {
+    opacity: 1; 
+  }
+  
+ /*youngest*/
+
+ .family-three {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .family-three img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0 50px;
+    margin-top: 67px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .family-three img:hover {
+    content: url('youngest.jpg');
+    transition: transform 0.3s ease, box-shadow 0.3s ease 
+  }
+  .family-three:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+  }
+  
+
+  .family-three:hover:after {
+    content: "YOUNGEST CHILD";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.833);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .family-three:hover:after {
+    opacity: 1; 
+  }
+  
+ 
+  
+  .overlay-line {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36%;
+    height: 2px;
+    background-color: white;
+    z-index: 9999; 
+
+    }
+
+  .overlays-line {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: 2px;
+    background-color: white;
+    z-index: 9999; 
+  }
+  .overlay-lines {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height:  22%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999; 
+  }
+   .overlays-lines {
+    position: absolute;
+    top: 56%;
+    right: 68%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height:  4%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999; 
+  }
+  .overlayss-lines {
+    position: absolute;
+    top: 56%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height:  4%;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999; 
+  }
+ 
+/*Father*/
+
+.family-dad {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .family-dad img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    margin: 0 50px;
+    margin-top: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .family-dad img:hover {
+    content: url('father.jpg');
+    transition: transform 0.3s ease, box-shadow 0.3s ease 
+  }
+  .family-dad:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+  }
+  
+
+  .family-dad:hover:after {
+    content: "FATHER";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    bottom: 65px;
+    right: 80%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .family-dad:hover:after {
+    opacity: 1; 
+  }
+
+
+
+
+  
+  

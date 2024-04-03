@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="Logo.jpg">
+    <title>Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+   
+    <style>
+        body {
+            background-image:  url(bk.jpg);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    
+        .card-container {
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+        }
+    
+        .card {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    
+        .card h2 {
+            margin-top: 0;
+        }
+    
+        .card p {
+            margin-bottom: 10px;
+        }
+        .card{
+        position: center;
+        left: 50px;
+        margin-top: 20%;
+        top: 100%;
+        transform: translateY(-50%);
+        font-size: 16px;
+        color: white;
+        width: 250px; 
+        max-width: calc(100% - 40px);
+        padding: 10px; 
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+    }
+
+    .image-container {
+    position: relative;
+    margin-right: 50px;
+    margin-top: 10%;
+}
+
+.image-container img {
+    border-radius: 10%;
+    border: 1px solid #ffffff;
+    width: 200px;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text {
+    color: white; 
+    font-size: 12px;
+    text-align: center;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container:hover .overlay {
+    display: flex; 
+}
+
+    .back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #0000008f;
+    border: 1px solid #f9f9f9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -60px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.back-button i {
+    font-size: 20px;
+}
+
+.back-button:hover {
+    transform: translateY(-50%) scale(1.1); 
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+    </style>
+</head>
+<body>
+
+<div class="card-container">
+    <div class="image-container">
+        <img src="middle.jpg" alt="Image">
+        <div class="overlay">
+            <div class="overlay-text">
+                <p><strong>Age: </strong> 17 Years old</p>
+                <p><strong>Birthdate: </strong> 07/10/2006</p>
+                <p> Senior Highschool Student</p>
+                <p><strong>Hobby: </strong> Tinker with motorcycles & Annoy people</p>
+                <p><strong>Favorite Color: </strong> Don't know</p>
+            </div>
+        </div>
+    </div>
+        <a href="familytree.html" class="back-button"><i class="fas fa-arrow-left"></i></a>
+    </div>
+
+    <div class="card"> <center><h1 style="font-size: 15px;">WARRELL DAVID CUNANAN (MIDDLE CHILD) </h1></center> <p style="font-size: 12px;">
+        He is a 17-year-old SVPSPC grade 12 student who was born on July 10, 2006, and is the family's middle child. 
+        When it comes to motorcycles and cars, he is a very vocal person who also enjoys annoying others. A highly impatient man, also a stubborn child, his interests are tinkering with cars and motorcycles. 
+        Despite all of this attitude, he is still a really nice guy.  His friends and family know him not only for his mechanical prowess but also for his generous and caring nature, making him a cherished member of his social circle.  </html></p> </div>
+</div>
+
+</body>
+</html>
